@@ -17,20 +17,9 @@ public class JualBeliSampahPlastik {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        awal();
         
-        Input data = new Input();
+        Pilihan on = new Pilihan();
         
-        data.identitas();
-        data.pilih();
-        data.jenis();
-        data.pilih_jenis();
-        data.hitung();
-        data.hasil();
-        data.transaksi();
-    }
-    
-    static void awal(){
-        System.out.println("== JUAL BELI SAMPAH PASTIK ==\n=============================\n");
+        on.jualBeli();
     }
 }
